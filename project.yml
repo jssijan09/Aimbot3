@@ -1,0 +1,20 @@
+name: GameToolsDemo
+options:
+  bundleIdPrefix: com.example
+  deploymentTarget:
+    iOS: "15.0"
+targets:
+  GameToolsDemo:
+    type: application
+    platform: iOS
+    sources:
+      - FFAimbot
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.example.gametoolsdemo
+        PRODUCT_NAME: GameToolsDemo
+        INFOPLIST_KEY_CFBundleDisplayName: Game Tools Demo
+        INFOPLIST_KEY_UILaunchScreen_Generation: YES
+        SWIFT_VERSION: 5.0
+        TARGETED_DEVICE_FAMILY: "1,2"
+        GENERATE_INFOPLIST_FILE: YES
